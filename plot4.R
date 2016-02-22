@@ -18,6 +18,6 @@ plot4 <- function() {
   #OUTPUT
   dev.copy(png, file="plot4.png", width=480, height=480)
   dev.off()
-  cat("plot4.png has been saved in /Users/Felix/Documents/Exploratory Data Analysis", getwd())
+  cat("plot4.png has been saved in \Users\Felix\Documents\Exploratory Data Analysis", getwd())
 }
 plot4()
